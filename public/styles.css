@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bg-container {
+    background-color: aliceblue;
+    background-size: cover;
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-maintanence-img {
+    width: 80%;
+    max-width: 500px;
+}
+
+.maintenance-heading {
+    font-size: 35px;
+    color: #011f50;
+}
+
+.maintenance-description {
+    font-size: 16px;
+    color: #011f50;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #011f50;
+    margin-bottom: 10px;
+}
